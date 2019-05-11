@@ -20,6 +20,7 @@
 		FD5BF9AE228504CD003DC781 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BF9AD228504CD003DC781 /* IntermediaryModels.swift */; };
 		FD5BF9B022850543003DC781 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BF9AF22850543003DC781 /* Order.swift */; };
 		FD5BF9B22285064C003DC781 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BF9B12285064C003DC781 /* MenuController.swift */; };
+		FD5BF9B42285F8C8003DC781 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5BF9B32285F8C8003DC781 /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FD5BF9AD228504CD003DC781 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		FD5BF9AF22850543003DC781 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		FD5BF9B12285064C003DC781 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FD5BF9B32285F8C8003DC781 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				FD5BF9912284F273003DC781 /* AppDelegate.swift */,
-				FD5BF9932284F273003DC781 /* ViewController.swift */,
 				FD5BF9952284F273003DC781 /* Main.storyboard */,
 				FD5BF9982284F276003DC781 /* Assets.xcassets */,
 				FD5BF99A2284F276003DC781 /* LaunchScreen.storyboard */,
 				FD5BF99D2284F276003DC781 /* Info.plist */,
 				FD5BF9A32284F6FE003DC781 /* CategoryTableTableViewController.swift */,
+				FD5BF9B32285F8C8003DC781 /* OrderConfirmationViewController.swift */,
 				FD5BF9A52284F72D003DC781 /* MenuTableViewController.swift */,
 				FD5BF9A72284F74C003DC781 /* OrderTableViewController.swift */,
 				FD5BF9A92284FF82003DC781 /* MenuItemDetailViewController.swift */,
@@ -84,6 +86,7 @@
 				FD5BF9AD228504CD003DC781 /* IntermediaryModels.swift */,
 				FD5BF9AF22850543003DC781 /* Order.swift */,
 				FD5BF9B12285064C003DC781 /* MenuController.swift */,
+				FD5BF9932284F273003DC781 /* ViewController.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				FD5BF9AE228504CD003DC781 /* IntermediaryModels.swift in Sources */,
 				FD5BF9942284F273003DC781 /* ViewController.swift in Sources */,
 				FD5BF9922284F273003DC781 /* AppDelegate.swift in Sources */,
+				FD5BF9B42285F8C8003DC781 /* OrderConfirmationViewController.swift in Sources */,
 				FD5BF9A42284F6FE003DC781 /* CategoryTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
